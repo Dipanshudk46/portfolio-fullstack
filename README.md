@@ -1,16 +1,43 @@
-# React + Vite
+# 🚀 Full-Stack Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack portfolio website with an animated contact system that allows users to send messages directly via email.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧠 Overview
 
-## React Compiler
+This project is built using a full-stack architecture:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Frontend → React (Vite) with animations
+- Backend → Node.js + Express
+- Email Service → Nodemailer (Gmail SMTP)
 
-## Expanding the ESLint configuration
+Users can fill out the contact form, and messages are sent directly to my email in real-time.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+### Frontend
+- React (Vite)
+- Tailwind CSS
+- Framer Motion (animations)
+
+### Backend
+- Node.js
+- Express.js
+- Nodemailer
+
+---
+
+## 🔗 Features
+
+- ✨ Futuristic animated UI
+- 📩 Real-time email sending
+- 🔐 Backend validation
+- ⚡ Fast and responsive design
+- 🧠 Call stack simulation animation
+
+---
+
+## 📁 Project Structure
