@@ -38,6 +38,4 @@ Users can fill out the contact form, and messages are sent directly to my email 
 - ⚡ Fast and responsive design
 - 🧠 Call stack simulation animation
 
----
 
-## 📁 Project Structure
