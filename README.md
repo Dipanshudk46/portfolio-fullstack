@@ -38,4 +38,7 @@ Users can fill out the contact form, and messages are sent directly to my email 
 - ⚡ Fast and responsive design
 - 🧠 Call stack simulation animation
 
+## 🌍 Live Demo
 
+Frontend: https://portfolio-fullstack-puce-nine.vercel.app/ 
+Backend: https://portfolio-fullstack-k947.onrender.com/
