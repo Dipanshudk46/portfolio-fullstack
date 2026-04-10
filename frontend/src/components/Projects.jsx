@@ -51,7 +51,7 @@ const projects = [
     ],
     tech: ["React.js", "Express.js", "Nodemailer"],
     gradient: "from-[#00f0ff]/20 to-transparent",
-    githubLink: "https://github.com/Dipanshudk46"
+    githubLink: "https://github.com/Dipanshudk46/portfolio-fullstack"
   }
 ];
 

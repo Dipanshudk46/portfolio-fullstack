@@ -8,6 +8,9 @@ const router = require('./routes/contactRoute')
 app.use(cors())
 app.use(express.json())
 
+app.get('/',(req,res)=>{
+    res.send("Backend is running")
+})
 app.use('/api',router)
 
 const PORT = process.env.PORT ||5000
