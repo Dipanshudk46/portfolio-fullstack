@@ -5,7 +5,7 @@ const contactController = async (req, res) => {
     try {
         const { name, email, message } = req.body;
 
-        // ✅ validation
+        // validation
         if (!name || !email || !message) {
             return res.status(400).json({
                 success: false,
@@ -23,6 +23,8 @@ const contactController = async (req, res) => {
         // transporter
         const transporter = nodemailer.createTransport({
             service: "gmail",
+            port: 587,
+            secure: false, 
             auth: {
                 user: process.env.EMAIL,
                 pass: process.env.APP_PASSWORD
